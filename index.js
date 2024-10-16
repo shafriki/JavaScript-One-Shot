@@ -110,9 +110,9 @@ console.log(`a-- = ${a--}`);
 console.log(`a = ${a}`);*/
 
 // assignment operator
-let a = 100;
-a%=10;
-console.log(a);
+// let a = 100;
+// a%=10;
+// console.log(a);
 
 // conditional statement
 /*let num = 109493283;
@@ -151,18 +151,18 @@ else {
     console.log('FAILED')
 }*/
 
-// task challenge 1-100
-let firstName = 'Shafriki';
-let lastName = 'Islam';
-console.log(`My name is ${firstName} ${lastName}`);
+// // task challenge 1-100
+// let firstName = 'Shafriki';
+// let lastName = 'Islam';
+// console.log(`My name is ${firstName} ${lastName}`);
 
-// task challenge 2-100
-const birthYear = 1999;
-const currentYear = 2024;
-const age = currentYear-birthYear;
-console.log(`I am ${age} years old`);
+// // task challenge 2-100
+// const birthYear = 1999;
+// const currentYear = 2024;
+// const age = currentYear-birthYear;
+// console.log(`I am ${age} years old`);
 
-// task challenge 3-100
+// // task challenge 3-100
 const favoriteColor = 'black';
 console.log(`my favorite color is ${favoriteColor}`);
 
@@ -188,7 +188,8 @@ i = temp;
 
 console.log(h, i);
 
-// task challenge 8 -100
+task challenge 8 -100
+const is
 if(isWeekend == 'saturday' || 'sunday') {
     console.log(true)
 }
@@ -196,4 +197,159 @@ else {
     console.log(false)
 }
 
+task 7-100
+let number = 100;
+
+if(number%2 == 0) {
+    console.log('even')
+}
+else {
+    console.log('odd')
+}
+
+let degreeTitle = 'B.Sc in CSE';
+let department = 'CSE';
+let studentName = 'shafriki'
+
+console.log(`student name: ${studentName}. he is a ${department} department student. his degree title ${degreeTitle}`);
+
+task 10 - 100
+let length = 100;
+let width = 56;
+let area = length*width;
+
+console.log(`A rectangle length = ${length} and width = ${width} and area is: ${area}`);
+
+task 11 -100
+let name = 'shafriki islam';
+let cgpa = 2.75;
+let isEmployed = false;
+
+console.log(`name is a  ${typeof name}, cgpa is ${typeof cgpa} and isEmployed i ${typeof isEmployed}`)
+
+task 12 - 100
+const carDetails = {
+    make: 'Toyota',
+    model: 'DG2948',
+    year: '2023'
+};
+const {make, model, year} = {model:'Toyota', make:'DG2948', year:'2023'};
+console.log(make)
+
+task 13 -100
+let a;
+console.log(a)
+
+task 14 -100
+let favMovies = ['Gurdian of The Galaxy', 'Pnchayet', '12th Fail'];
+console.log(favMovies[favMovies.length-1]);
+console.log(favMovies.length);
+console.log(typeof favMovies)
+
+task 15-100
+let stringNum = '12234'
+let num = parseInt(stringNum);
+
+console.log(typeof num)
+
+task 16-100
+let firstString = 12
+let secondString = '12'
+console.log(firstString === secondString)
+
+task 17 - 100
+let a = null;
+console.log(typeof a)
+
+task 18 - 100
+function name(yourName) {
+    return (`Assalamu alaikum. I am ${yourName}`)
+}
+const giveName = name('shafriki islam');
+console.log(giveName)
+
+const name=(yourName) => `Assalamu alaikum. I am ${yourName}`
+console.log(name('shafriki islams'))
+
+function greet(name) {
+    console.log(`hello i am ${name}`)
+}
+greet('riki');
+
+task 19-100
+
+let num =100;
+num+=4;
+console.log(num)
+
+task 20-100
+const givenStiring = 'Shafriki Islam';
+const reverseString = givenStiring.split('').reverse().join('')
+console.log(reverseString)
+
+task 21 - 100
+let num = -20;
+const result = num >= 0 ? 'Positive' : 'Negative';
+console.log(result)
+
+task 23 -100
+const givenNumber = 38;
+if(givenNumber % 3 ===0){
+    console.log('yes possibile');
+}
+else {
+    console.log('sorry not possible')
+}
+
+task 24 100
+let given;
+if(typeof given === 'undefined' ){
+    console.log(typeof given)
+}
+else {
+    console.log(given)
+}
+
+task 25-100
+let givenN = true;
+let convertString = givenN.toString()
+console.log(typeof convertString)
+
+task 26 -100
+let givenString = 'shafriki islam';
+let lengthString =givenString.length;
+console.log(lengthString)
+
+task 27-100
+let book = {
+    title: 'Introduction to JavaScript',
+    author: 'Unknown',
+    yearPublished:'2024'
+}
+console.log(`author name: ${book.author} and title of the book: ${book.title}`)
+
+task 28 -100
+let floatNumber = 199.313;
+let intNumber = parseFloat.2(floatNumber);
+console.log(intNumber)
+
+29 - 100
+let givenVar=null;
+if( givenVar === null){
+    console.log("is Null")
+}
+else{
+    console.log(givenVar)
+}
+
+30 - 100
+function givenNumber(a,b){
+    return a*b;
+}
+const restult = givenNumber(2,3);
+console.log(restult)
+
+const givenNumber =(a,b) => a*b;
+const result = givenNumber(2,3)
+console.log(result);
 
